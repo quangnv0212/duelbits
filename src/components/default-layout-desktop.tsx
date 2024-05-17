@@ -31,20 +31,6 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
     <>
       <div className="desktop">
         <HeaderComponent collapsed={collapsed} setCollapsed={setCollapsed} />
-      </div>
-      <div className="tablet">
-        <HeaderMobileAndTablet
-          collapsed={collapsed}
-          setCollapsed={setCollapsed}
-        />
-      </div>
-      <div className="mobile">
-        <HeaderMobileAndTablet
-          collapsed={collapsed}
-          setCollapsed={setCollapsed}
-        />
-      </div>
-      <div className="desktop">
         <Layout style={{ minHeight: "100vh" }}>
           <Sider
             trigger={null}
@@ -116,9 +102,19 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
         </Layout>
       </div>
       <div className="tablet">
+        <HeaderMobileAndTablet
+          collapsed={collapsed}
+          setCollapsed={setCollapsed}
+        />
+        {children}
         <BottomNavbar />
       </div>
       <div className="mobile">
+        <HeaderMobileAndTablet
+          collapsed={collapsed}
+          setCollapsed={setCollapsed}
+        />
+        {children}
         <BottomNavbar />
       </div>
     </>
