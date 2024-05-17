@@ -1,3 +1,32 @@
+/* CSS */
+.mobile {
+  display: block;
+}
+
+.tablet,
+.desktop {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .mobile,
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile,
+  .tablet {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -67,4 +96,49 @@ flex-direction: column-reverse !important;
 }
 .ant-modal .ant-modal-content{
   padding: 0 !important;
+}
+
+.ant-collapse>.ant-collapse-item{
+  /* border-bottom: 3px solid #203241 !important; */
+  border: 0 !important;
+ 
+
+}
+.ant-collapse-item{
+  background-color: #33414C !important;
+}
+.ant-collapse{
+  border-radius: 0 !important;
+  border: 0 !important;
+}
+.ant-collapse-header-text{
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+.collapse-arrow {
+  justify-content: flex-end !important;
+}
+.anticon.anticon-right.ant-collapse-arrow {
+  color: #fff !important;
+}
+.ant-collapse-content-box{
+  padding: 0 !important;
+  background-color: #203241 !important;
+}
+.ant-collapse-header-text{
+  font-size: 12px !important;
+}
+.ant-collapse>.ant-collapse-item >.ant-collapse-header {
+  padding: 12px !important;
+}
+.ant-collapse .ant-collapse-content {
+  border-top:0 !important;
+}
+.ant-select-selector {
+  background-color: #203241 !important;
+  color: #fff !important;
+}
+.ant-select-focused.ant-select-single.ant-select-show-arrow.ant-select-open {
+  color: #fff !important;
 }
