@@ -1,4 +1,5 @@
 import { AceRewards } from "@/components/ace-rewards";
+import { CryptoPricesMobileAndTablet } from "@/components/crypto-mobile-and-tablet";
 import { CryptoPrices } from "@/components/crypto-prices";
 import { FestivalFootball } from "@/components/festival-football";
 import { FestivalFootballMobileAndTablet } from "@/components/festival-football-mobile-and-tablet";
@@ -6,6 +7,7 @@ import { FirstBanner } from "@/components/first-banner";
 import { FirstBannerMobile } from "@/components/first-banner-mobile";
 import { Info } from "@/components/info";
 import { LiveEvents } from "@/components/live-event";
+import { LiveEventsMobileAndTablet } from "@/components/live-event-mobile-and-tablet";
 import { OriginalGame } from "@/components/original-game";
 import { OriginalGameMobileAndTablet } from "@/components/original-game-mobile-and-tablet";
 import { Promotion } from "@/components/promotion";
@@ -36,7 +38,7 @@ export default function Home() {
           <AceRewards />
           <TableData />
         </div>
-        <div className="tablet ">
+        <div className="tablet">
           <FirstBannerMobile />
           <SecondBanner />
           <FestivalFootballMobileAndTablet />
@@ -44,6 +46,9 @@ export default function Home() {
           <RecommendedMobileAndTablet />
           <OriginalGameMobileAndTablet />
           <WinMobileAndTablet />
+          <CryptoPricesMobileAndTablet />
+          <LiveEventsMobileAndTablet />
+          <div className="h-20"></div>
         </div>
         <div className="mobile bg-[#203241]">
           <FirstBannerMobile />
@@ -53,6 +58,9 @@ export default function Home() {
           <RecommendedMobileAndTablet />
           <OriginalGameMobileAndTablet />
           <WinMobileAndTablet />
+          <CryptoPricesMobileAndTablet />
+          <LiveEventsMobileAndTablet />
+          <div className="h-20"></div>
         </div>
 
         {/* <Info /> */}

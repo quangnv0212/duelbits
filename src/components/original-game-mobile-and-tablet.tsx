@@ -67,6 +67,10 @@ export function OriginalGameMobileAndTablet() {
         slidesPerView={5}
         spaceBetween={10}
         modules={[Navigation, Pagination]}
+        style={{
+          zIndex: 0,
+          width: "100%",
+        }}
       >
         <div className="flex gap-2 text-white font-bold text-base items-center p-2 justify-between ">
           <div className="flex gap-2">
