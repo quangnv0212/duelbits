@@ -100,7 +100,7 @@ export function Promotion() {
         <SwiperSlide className="rounded cursor-pointer">
           <div className=" w-full h-full rounded">
             <img
-              src="https://images.ctfassets.net/im9yudtc78wp/1WgRpLkr9UxAUm09sgu4jN/dd7ea0ecbf14853f66a5bada04c450f8/640x350-Promo__46_.jpg?fm=avif"
+              src="https://images.ctfassets.net/im9yudtc78wp/4zdc0jSxmNMil1ueSvF1Bw/d965756e56f8db92ebb7cba58c660587/640x350-promo__2_.jpg?fm=avif"
               alt=""
               className="object-cover rounded "
             />
@@ -118,7 +118,7 @@ export function Promotion() {
         <SwiperSlide className="rounded cursor-pointer">
           <div className=" w-full h-full rounded">
             <img
-              src="https://images.ctfassets.net/im9yudtc78wp/1WgRpLkr9UxAUm09sgu4jN/dd7ea0ecbf14853f66a5bada04c450f8/640x350-Promo__46_.jpg?fm=avif"
+              src="https://images.ctfassets.net/im9yudtc78wp/4zxC6UtKVnt3KkuCC6hKwq/6a32de9ac299109fb227af8dbd9f5a08/640x350-Promo__44_.jpg?fm=avif"
               alt=""
               className="object-cover rounded "
             />
@@ -127,7 +127,7 @@ export function Promotion() {
         <SwiperSlide className="rounded cursor-pointer">
           <div className=" w-full h-full rounded">
             <img
-              src="https://images.ctfassets.net/im9yudtc78wp/1WgRpLkr9UxAUm09sgu4jN/dd7ea0ecbf14853f66a5bada04c450f8/640x350-Promo__46_.jpg?fm=avif"
+              src="https://images.ctfassets.net/im9yudtc78wp/449u7cmJrgygWV3PNAhHg7/f76ed2dc0f83b6d0d1164bec336e23e7/640x350-promo.png?fm=avif"
               alt=""
               className="object-cover rounded "
             />
@@ -136,7 +136,7 @@ export function Promotion() {
         <SwiperSlide className="rounded cursor-pointer">
           <div className=" w-full h-full rounded">
             <img
-              src="https://images.ctfassets.net/im9yudtc78wp/1WgRpLkr9UxAUm09sgu4jN/dd7ea0ecbf14853f66a5bada04c450f8/640x350-Promo__46_.jpg?fm=avif"
+              src="https://images.ctfassets.net/im9yudtc78wp/4oLJyq2MsYpghSWt0htgAs/d56b849801b2d68067a32969007edc86/640x350-Promo__49_.jpg?fm=avif"
               alt=""
               className="object-cover rounded "
             />

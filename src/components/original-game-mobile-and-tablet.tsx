@@ -153,7 +153,119 @@ export function OriginalGameMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded text-xs">
             <img
-              src="https://media.duelbits.com/games/duelbits/blackjack.webp"
+              src="	https://media.duelbits.com/games/duelbits/lottery.webp"
+              alt=""
+              className="object-cover rounded"
+            />
+            <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-200 flex flex-col font-semibold items-center justify-center text-white gap-2">
+              <p>Slots</p>
+              <p className="text-primary text-xs ">96.5%</p>
+              <p className="text-primary text-xs">RTP</p>
+              <svg
+                width={16}
+                height={16}
+                viewBox="0 0 11 11"
+                fill="#FFFFFF"
+                xmlns="http://www.w3.org/2000/svg"
+                role="button"
+                className="styles_likeButton__3QAgV"
+              >
+                <path
+                  d="M10.2007 4.95004C9.34266 6.60004 7.04732 8.84404 5.74932 10.0394C5.60977 10.1654 5.39754 10.1654 5.25799 10.0394C3.95266 8.84404 1.65732 6.60004 0.799322 4.95004C-1.08535 1.32004 3.66666 -1.09996 5.49999 2.53004C7.33332 -1.09996 12.0853 1.32004 10.2007 4.95004Z"
+                  fill="#324850"
+                />
+              </svg>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="rounded cursor-pointer relative">
+          <div className="w-full h-full rounded text-xs">
+            <img
+              src="https://media.duelbits.com/games/duelbits/scratchcards.webp"
+              alt=""
+              className="object-cover rounded"
+            />
+            <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-200 flex flex-col font-semibold items-center justify-center text-white gap-2">
+              <p>Slots</p>
+              <p className="text-primary text-xs ">96.5%</p>
+              <p className="text-primary text-xs">RTP</p>
+              <svg
+                width={16}
+                height={16}
+                viewBox="0 0 11 11"
+                fill="#FFFFFF"
+                xmlns="http://www.w3.org/2000/svg"
+                role="button"
+                className="styles_likeButton__3QAgV"
+              >
+                <path
+                  d="M10.2007 4.95004C9.34266 6.60004 7.04732 8.84404 5.74932 10.0394C5.60977 10.1654 5.39754 10.1654 5.25799 10.0394C3.95266 8.84404 1.65732 6.60004 0.799322 4.95004C-1.08535 1.32004 3.66666 -1.09996 5.49999 2.53004C7.33332 -1.09996 12.0853 1.32004 10.2007 4.95004Z"
+                  fill="#324850"
+                />
+              </svg>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="rounded cursor-pointer relative">
+          <div className="w-full h-full rounded text-xs">
+            <img
+              src="	https://media.duelbits.com/games/duelbits/duelpoker.webp"
+              alt=""
+              className="object-cover rounded"
+            />
+            <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-200 flex flex-col font-semibold items-center justify-center text-white gap-2">
+              <p>Slots</p>
+              <p className="text-primary text-xs ">96.5%</p>
+              <p className="text-primary text-xs">RTP</p>
+              <svg
+                width={16}
+                height={16}
+                viewBox="0 0 11 11"
+                fill="#FFFFFF"
+                xmlns="http://www.w3.org/2000/svg"
+                role="button"
+                className="styles_likeButton__3QAgV"
+              >
+                <path
+                  d="M10.2007 4.95004C9.34266 6.60004 7.04732 8.84404 5.74932 10.0394C5.60977 10.1654 5.39754 10.1654 5.25799 10.0394C3.95266 8.84404 1.65732 6.60004 0.799322 4.95004C-1.08535 1.32004 3.66666 -1.09996 5.49999 2.53004C7.33332 -1.09996 12.0853 1.32004 10.2007 4.95004Z"
+                  fill="#324850"
+                />
+              </svg>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="rounded cursor-pointer relative">
+          <div className="w-full h-full rounded text-xs">
+            <img
+              src="https://media.duelbits.com/games/duelbits/dice.webp"
+              alt=""
+              className="object-cover rounded"
+            />
+            <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-200 flex flex-col font-semibold items-center justify-center text-white gap-2">
+              <p>Slots</p>
+              <p className="text-primary text-xs ">96.5%</p>
+              <p className="text-primary text-xs">RTP</p>
+              <svg
+                width={16}
+                height={16}
+                viewBox="0 0 11 11"
+                fill="#FFFFFF"
+                xmlns="http://www.w3.org/2000/svg"
+                role="button"
+                className="styles_likeButton__3QAgV"
+              >
+                <path
+                  d="M10.2007 4.95004C9.34266 6.60004 7.04732 8.84404 5.74932 10.0394C5.60977 10.1654 5.39754 10.1654 5.25799 10.0394C3.95266 8.84404 1.65732 6.60004 0.799322 4.95004C-1.08535 1.32004 3.66666 -1.09996 5.49999 2.53004C7.33332 -1.09996 12.0853 1.32004 10.2007 4.95004Z"
+                  fill="#324850"
+                />
+              </svg>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="rounded cursor-pointer relative">
+          <div className="w-full h-full rounded text-xs">
+            <img
+              src="	https://media.duelbits.com/games/duelbits/plinko.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -209,119 +321,7 @@ export function OriginalGameMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded text-xs">
             <img
-              src="https://media.duelbits.com/games/duelbits/blackjack.webp"
-              alt=""
-              className="object-cover rounded"
-            />
-            <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-200 flex flex-col font-semibold items-center justify-center text-white gap-2">
-              <p>Slots</p>
-              <p className="text-primary text-xs ">96.5%</p>
-              <p className="text-primary text-xs">RTP</p>
-              <svg
-                width={16}
-                height={16}
-                viewBox="0 0 11 11"
-                fill="#FFFFFF"
-                xmlns="http://www.w3.org/2000/svg"
-                role="button"
-                className="styles_likeButton__3QAgV"
-              >
-                <path
-                  d="M10.2007 4.95004C9.34266 6.60004 7.04732 8.84404 5.74932 10.0394C5.60977 10.1654 5.39754 10.1654 5.25799 10.0394C3.95266 8.84404 1.65732 6.60004 0.799322 4.95004C-1.08535 1.32004 3.66666 -1.09996 5.49999 2.53004C7.33332 -1.09996 12.0853 1.32004 10.2007 4.95004Z"
-                  fill="#324850"
-                />
-              </svg>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="rounded cursor-pointer relative">
-          <div className="w-full h-full rounded text-xs">
-            <img
-              src="https://media.duelbits.com/games/duelbits/blackjack.webp"
-              alt=""
-              className="object-cover rounded"
-            />
-            <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-200 flex flex-col font-semibold items-center justify-center text-white gap-2">
-              <p>Slots</p>
-              <p className="text-primary text-xs ">96.5%</p>
-              <p className="text-primary text-xs">RTP</p>
-              <svg
-                width={16}
-                height={16}
-                viewBox="0 0 11 11"
-                fill="#FFFFFF"
-                xmlns="http://www.w3.org/2000/svg"
-                role="button"
-                className="styles_likeButton__3QAgV"
-              >
-                <path
-                  d="M10.2007 4.95004C9.34266 6.60004 7.04732 8.84404 5.74932 10.0394C5.60977 10.1654 5.39754 10.1654 5.25799 10.0394C3.95266 8.84404 1.65732 6.60004 0.799322 4.95004C-1.08535 1.32004 3.66666 -1.09996 5.49999 2.53004C7.33332 -1.09996 12.0853 1.32004 10.2007 4.95004Z"
-                  fill="#324850"
-                />
-              </svg>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="rounded cursor-pointer relative">
-          <div className="w-full h-full rounded text-xs">
-            <img
-              src="https://media.duelbits.com/games/duelbits/blackjack.webp"
-              alt=""
-              className="object-cover rounded"
-            />
-            <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-200 flex flex-col font-semibold items-center justify-center text-white gap-2">
-              <p>Slots</p>
-              <p className="text-primary text-xs ">96.5%</p>
-              <p className="text-primary text-xs">RTP</p>
-              <svg
-                width={16}
-                height={16}
-                viewBox="0 0 11 11"
-                fill="#FFFFFF"
-                xmlns="http://www.w3.org/2000/svg"
-                role="button"
-                className="styles_likeButton__3QAgV"
-              >
-                <path
-                  d="M10.2007 4.95004C9.34266 6.60004 7.04732 8.84404 5.74932 10.0394C5.60977 10.1654 5.39754 10.1654 5.25799 10.0394C3.95266 8.84404 1.65732 6.60004 0.799322 4.95004C-1.08535 1.32004 3.66666 -1.09996 5.49999 2.53004C7.33332 -1.09996 12.0853 1.32004 10.2007 4.95004Z"
-                  fill="#324850"
-                />
-              </svg>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="rounded cursor-pointer relative">
-          <div className="w-full h-full rounded text-xs">
-            <img
-              src="https://media.duelbits.com/games/duelbits/blackjack.webp"
-              alt=""
-              className="object-cover rounded"
-            />
-            <div className="absolute inset-0 bg-black opacity-0 hover:opacity-75 transition-opacity duration-200 flex flex-col font-semibold items-center justify-center text-white gap-2">
-              <p>Slots</p>
-              <p className="text-primary text-xs ">96.5%</p>
-              <p className="text-primary text-xs">RTP</p>
-              <svg
-                width={16}
-                height={16}
-                viewBox="0 0 11 11"
-                fill="#FFFFFF"
-                xmlns="http://www.w3.org/2000/svg"
-                role="button"
-                className="styles_likeButton__3QAgV"
-              >
-                <path
-                  d="M10.2007 4.95004C9.34266 6.60004 7.04732 8.84404 5.74932 10.0394C5.60977 10.1654 5.39754 10.1654 5.25799 10.0394C3.95266 8.84404 1.65732 6.60004 0.799322 4.95004C-1.08535 1.32004 3.66666 -1.09996 5.49999 2.53004C7.33332 -1.09996 12.0853 1.32004 10.2007 4.95004Z"
-                  fill="#324850"
-                />
-              </svg>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="rounded cursor-pointer relative">
-          <div className="w-full h-full rounded text-xs">
-            <img
-              src="https://media.duelbits.com/games/duelbits/blackjack.webp"
+              src="	https://media.duelbits.com/games/duelbits/roulette.webp"
               alt=""
               className="object-cover rounded"
             />

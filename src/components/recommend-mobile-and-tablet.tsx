@@ -144,7 +144,7 @@ export function RecommendedMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded text-sm">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="	https://media.duelbits.com/games/evolution/crazytime.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -172,7 +172,7 @@ export function RecommendedMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded text-sm">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="	https://media.duelbits.com/games/pragmaticexternal/GatesofOlympus1000.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -200,7 +200,7 @@ export function RecommendedMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded text-sm">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="https://media.duelbits.com/games/hacksaw/WantedDeadoraWild.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -228,7 +228,7 @@ export function RecommendedMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded text-sm">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="https://media.duelbits.com/games/pragmaticexternal/GatesOfOlympus1.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -256,7 +256,7 @@ export function RecommendedMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded text-sm">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="	https://media.duelbits.com/games/evolution/DuelbitsFirstPersonBlackjack.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -284,7 +284,7 @@ export function RecommendedMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded text-sm">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="	https://media.duelbits.com/games/evolution/DuelbitsBlackjack.webp"
               alt=""
               className="object-cover rounded"
             />

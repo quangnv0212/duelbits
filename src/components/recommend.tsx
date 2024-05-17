@@ -128,7 +128,7 @@ export function Recommended() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="	https://media.duelbits.com/games/evolution/crazytime.webp"
               alt=""
               className="object-cover rounded h-[210px] w-[157px]"
             />
@@ -156,7 +156,7 @@ export function Recommended() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="	https://media.duelbits.com/games/pragmaticexternal/GatesofOlympus1000.webp"
               alt=""
               className="object-cover rounded h-[210px] w-[157px]"
             />
@@ -184,7 +184,7 @@ export function Recommended() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="https://media.duelbits.com/games/hacksaw/WantedDeadoraWild.webp"
               alt=""
               className="object-cover rounded h-[210px] w-[157px]"
             />
@@ -212,7 +212,7 @@ export function Recommended() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="https://media.duelbits.com/games/pragmaticexternal/GatesOfOlympus1.webp"
               alt=""
               className="object-cover rounded h-[210px] w-[157px]"
             />
@@ -240,7 +240,7 @@ export function Recommended() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="	https://media.duelbits.com/games/evolution/DuelbitsFirstPersonBlackjack.webp"
               alt=""
               className="object-cover rounded h-[210px] w-[157px]"
             />
@@ -268,7 +268,7 @@ export function Recommended() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="	https://media.duelbits.com/games/evolution/DuelbitsBlackjack.webp"
               alt=""
               className="object-cover rounded h-[210px] w-[157px]"
             />
@@ -296,7 +296,7 @@ export function Recommended() {
         <SwiperSlide className="rounded cursor-pointer relative">
           <div className="w-full h-full rounded">
             <img
-              src="https://media.duelbits.com/games/pragmaticexternal/SweetBonanza.webp"
+              src="	https://media.duelbits.com/games/pushgaming/RetroSweets.webp"
               alt=""
               className="object-cover rounded h-[210px] w-[157px]"
             />

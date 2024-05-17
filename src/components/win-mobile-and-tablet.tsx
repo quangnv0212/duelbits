@@ -152,7 +152,7 @@ export function WinMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative text-white  ">
           <div className="bg-[#324B61] flex flex-col p-2 rounded items-center gap-2">
             <img
-              src="https://media.duelbits.com/games/duelbits/roulette.webp"
+              src="https://media.duelbits.com/games/evolution/XXXTremeLightningRoulette.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -179,7 +179,7 @@ export function WinMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative text-white  ">
           <div className="bg-[#324B61] flex flex-col p-2 rounded items-center gap-2">
             <img
-              src="https://media.duelbits.com/games/duelbits/roulette.webp"
+              src="	https://media.duelbits.com/games/pragmaticexternal/MultihandBlackjack.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -206,7 +206,7 @@ export function WinMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative text-white  ">
           <div className="bg-[#324B61] flex flex-col p-2 rounded items-center gap-2">
             <img
-              src="https://media.duelbits.com/games/duelbits/roulette.webp"
+              src="https://media.duelbits.com/games/evolution/LightningLotto.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -233,7 +233,7 @@ export function WinMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative text-white  ">
           <div className="bg-[#324B61] flex flex-col p-2 rounded items-center gap-2">
             <img
-              src="https://media.duelbits.com/games/duelbits/roulette.webp"
+              src="https://media.duelbits.com/games/pragmaticexternal/GemsBonanza1.webp"
               alt=""
               className="object-cover rounded"
             />
@@ -260,7 +260,7 @@ export function WinMobileAndTablet() {
         <SwiperSlide className="rounded cursor-pointer relative text-white  ">
           <div className="bg-[#324B61] flex flex-col p-2 rounded items-center gap-2">
             <img
-              src="https://media.duelbits.com/games/duelbits/roulette.webp"
+              src="https://media.duelbits.com/games/pragmaticexternal/YearoftheDragonKing.webp"
               alt=""
               className="object-cover rounded"
             />
