@@ -372,7 +372,7 @@ export function AceRewards() {
       >
         <div className="flex gap-2 text-white font-bold text-base mb-3 items-center justify-between ">
           <div className="flex gap-2 items-center">
-            <div className="mb-2">Ace's Rewards</div>
+            <div className="mb-2">Ace Rewards</div>
           </div>
           <div className="flex gap-2 items-center">
             <p className="text-sm font-semibold text-primary">View All</p>
