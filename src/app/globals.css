@@ -142,3 +142,7 @@ flex-direction: column-reverse !important;
 .ant-select-focused.ant-select-single.ant-select-show-arrow.ant-select-open {
   color: #fff !important;
 }
+
+.ant-menu-item, .ant-menu-submenu-title{
+  padding-left: 4px !important;
+}
