@@ -3,7 +3,7 @@ export interface IFestivalFootballProps {}
 export function FestivalFootball(props: IFestivalFootballProps) {
   return (
     <div>
-      <div className="flex gap-2 text-white font-bold text-base items-center mb-3 items-center">
+      <div className="flex gap-2 text-white font-bold text-base p-2 items-center">
         <svg
           width={16}
           height={17}
@@ -44,10 +44,10 @@ export function FestivalFootball(props: IFestivalFootballProps) {
             <span className="styled__WhiteText-sc-di3ujq-24 eQlpAw">
               + 1x Ticket
             </span>
-            <span className="styled__WhiteText-sc-di3ujq-24 eQlpAw">
+            <span className="block">
               for $250k GTD
+              <span className="p-1">Fantasy Tournament</span>
             </span>
-            Fantasy Tournament
             <button className="block w-full border rounded py-2 hover:bg-[#4c5660] text-sm my-2 border-primary">
               Sign Up
             </button>

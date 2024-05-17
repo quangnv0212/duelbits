@@ -68,7 +68,7 @@ export function Recommended() {
         spaceBetween={30}
         modules={[Navigation, Pagination]}
       >
-        <div className="flex gap-2 text-white font-bold text-base py-2 items-center justify-between ">
+        <div className="flex gap-2 text-white font-bold text-base p-2 items-center justify-between ">
           <div className="flex gap-2">
             <svg
               width={16}
@@ -90,7 +90,7 @@ export function Recommended() {
                 fill="inherit"
               />
             </svg>
-            <div className="mb-2">Recommended</div>
+            <div className="">Recommended</div>
           </div>
           <div className="flex gap-2 items-center">
             <p className="text-sm font-semibold text-primary">View All</p>

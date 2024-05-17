@@ -132,7 +132,7 @@ export function FirstBanner(props: IFirstBannerProps) {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly my-3">
           <div className="flex items-center gap-2 text-white uppercase">
             <svg
               width={16}

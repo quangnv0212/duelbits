@@ -143,6 +143,16 @@ flex-direction: column-reverse !important;
   color: #fff !important;
 }
 
-.ant-menu-item, .ant-menu-submenu-title{
-  padding-left: 4px !important;
+.ant-menu-item {
+  padding-left: 16px !important;
+}
+.ant-menu-submenu-title {
+  padding-left: 16px !important;
+}
+.ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-collapsed.text-white {
+  flex: 0 0 60px !important;
+  max-width: 60px !important;
+  min-width: 60px !important;
+  width: 60px !important;
+
 }
