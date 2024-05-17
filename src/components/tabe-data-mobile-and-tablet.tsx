@@ -26,7 +26,7 @@ export function TableDataMobileAndTablet(props: ITableDataProps) {
             <div
               onClick={() => setActiveLabel(item.title)}
               key={index}
-              className={`text-white font-medium p-2 ${
+              className={`text-white text-xs font-medium p-2 ${
                 isActive ? "border-b-2 border-primary" : "bg-[#213241]"
               } cursor-pointer`}
             >
@@ -35,7 +35,7 @@ export function TableDataMobileAndTablet(props: ITableDataProps) {
           );
         })}
       </div>
-      <table className="table-auto w-full">
+      <table className="table-auto w-full text-xs">
         <thead>
           <tr className="text-white font-medium bg-[#314B61] ">
             <th className="font-medium text-left p-2">Game</th>

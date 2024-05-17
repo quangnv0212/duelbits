@@ -21,7 +21,7 @@ export function FestivalFootballMobileAndTablet(props: IFestivalFootballProps) {
         </div>
       </div>
       <div
-        className="flex flex-col gap-5 p-3 rounded-md"
+        className="flex flex-col gap-5 rounded-md"
         style={{
           backgroundSize: "cover",
         }}
