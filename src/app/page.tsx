@@ -52,7 +52,6 @@ export default function Home() {
           <LiveEventsMobileAndTablet />
           <TopEventsMobileAndTablet />
           <AceRewardsMobileAndTablet />
-
           <div className="h-20"></div>
         </div>
         <div className="mobile bg-[#203241]">
@@ -67,7 +66,6 @@ export default function Home() {
           <LiveEventsMobileAndTablet />
           <TopEventsMobileAndTablet />
           <AceRewardsMobileAndTablet />
-
           <div className="h-20"></div>
         </div>
 
