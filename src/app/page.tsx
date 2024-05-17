@@ -1,3 +1,4 @@
+import { AceRewardsMobileAndTablet } from "@/components/ace-reward-mobile-and-tablet";
 import { AceRewards } from "@/components/ace-rewards";
 import { CryptoPricesMobileAndTablet } from "@/components/crypto-mobile-and-tablet";
 import { CryptoPrices } from "@/components/crypto-prices";
@@ -17,6 +18,7 @@ import { RecommendedMobileAndTablet } from "@/components/recommend-mobile-and-ta
 import { SecondBanner } from "@/components/second-banner";
 import { TableData } from "@/components/table-data";
 import { TopEvents } from "@/components/top-event";
+import { TopEventsMobileAndTablet } from "@/components/top-event-mobile-and-tablet";
 import { Win } from "@/components/win";
 import { WinMobileAndTablet } from "@/components/win-mobile-and-tablet";
 
@@ -48,6 +50,9 @@ export default function Home() {
           <WinMobileAndTablet />
           <CryptoPricesMobileAndTablet />
           <LiveEventsMobileAndTablet />
+          <TopEventsMobileAndTablet />
+          <AceRewardsMobileAndTablet />
+
           <div className="h-20"></div>
         </div>
         <div className="mobile bg-[#203241]">
@@ -60,6 +65,9 @@ export default function Home() {
           <WinMobileAndTablet />
           <CryptoPricesMobileAndTablet />
           <LiveEventsMobileAndTablet />
+          <TopEventsMobileAndTablet />
+          <AceRewardsMobileAndTablet />
+
           <div className="h-20"></div>
         </div>
 

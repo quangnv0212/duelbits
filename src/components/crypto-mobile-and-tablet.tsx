@@ -120,6 +120,7 @@ export function CryptoPricesMobileAndTablet() {
           zIndex: 0,
           width: "100%",
         }}
+        slidesPerView={4}
       >
         <div className="flex gap-2 text-white font-bold text-base p-2 items-center justify-between ">
           <div className="flex gap-2 items-center">

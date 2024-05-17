@@ -67,6 +67,9 @@ export function PromotionMobileAndTablet() {
         slidesPerView={2}
         spaceBetween={10}
         modules={[Navigation, Pagination]}
+        style={{
+          zIndex: 0,
+        }}
       >
         <div className="flex gap-2 text-white font-bold text-base items-center justify-between p-2 ">
           <div className="flex gap-2">
