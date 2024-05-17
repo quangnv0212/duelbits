@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export interface ITableDataProps {}
 
-export function TableData(props: ITableDataProps) {
+export function TableDataMobileAndTablet(props: ITableDataProps) {
   const [activeLabel, setActiveLabel] = useState("All Bets");
   const tab = [
     {

@@ -16,6 +16,7 @@ import { PromotionMobileAndTablet } from "@/components/promotion-mobile-and-tabl
 import { Recommended } from "@/components/recommend";
 import { RecommendedMobileAndTablet } from "@/components/recommend-mobile-and-tablet";
 import { SecondBanner } from "@/components/second-banner";
+import { TableDataMobileAndTablet } from "@/components/tabe-data-mobile-and-tablet";
 import { TableData } from "@/components/table-data";
 import { TopEvents } from "@/components/top-event";
 import { TopEventsMobileAndTablet } from "@/components/top-event-mobile-and-tablet";
@@ -26,7 +27,7 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col gap-4">
-        <div className="desktop">
+        <div className="desktop flex flex-col gap-2">
           <FirstBanner />
           <SecondBanner />
           <FestivalFootball />
@@ -52,6 +53,7 @@ export default function Home() {
           <LiveEventsMobileAndTablet />
           <TopEventsMobileAndTablet />
           <AceRewardsMobileAndTablet />
+          <TableDataMobileAndTablet />
           <div className="h-20"></div>
         </div>
         <div className="mobile bg-[#203241]">
@@ -66,6 +68,8 @@ export default function Home() {
           <LiveEventsMobileAndTablet />
           <TopEventsMobileAndTablet />
           <AceRewardsMobileAndTablet />
+          <TableDataMobileAndTablet />
+
           <div className="h-20"></div>
         </div>
 

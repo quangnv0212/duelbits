@@ -68,7 +68,7 @@ export function OriginalGame() {
         spaceBetween={30}
         modules={[Navigation, Pagination]}
       >
-        <div className="flex gap-2 text-white font-bold text-base mb-3 items-center justify-between ">
+        <div className="flex gap-2 text-white font-bold text-base py-2 items-center justify-between ">
           <div className="flex gap-2">
             <svg
               width="24"
