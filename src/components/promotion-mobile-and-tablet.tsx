@@ -65,10 +65,10 @@ export function PromotionMobileAndTablet() {
     <>
       <Swiper
         slidesPerView={2}
-        spaceBetween={30}
+        spaceBetween={10}
         modules={[Navigation, Pagination]}
       >
-        <div className="flex gap-2 text-white font-bold text-base mb-3 items-center justify-between p-2 ">
+        <div className="flex gap-2 text-white font-bold text-base items-center justify-between p-2 ">
           <div className="flex gap-2">
             <svg
               width={16}

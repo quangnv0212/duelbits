@@ -106,7 +106,7 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
           collapsed={collapsed}
           setCollapsed={setCollapsed}
         />
-        {children}
+        <div className="p-3 bg-[#203241]">{children}</div>
         <BottomNavbar />
       </div>
       <div className="mobile">
@@ -114,7 +114,7 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
           collapsed={collapsed}
           setCollapsed={setCollapsed}
         />
-        {children}
+        <div className="p-3 bg-[#203241]">{children}</div>
         <BottomNavbar />
       </div>
     </>

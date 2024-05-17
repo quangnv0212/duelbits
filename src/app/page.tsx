@@ -7,13 +7,16 @@ import { FirstBannerMobile } from "@/components/first-banner-mobile";
 import { Info } from "@/components/info";
 import { LiveEvents } from "@/components/live-event";
 import { OriginalGame } from "@/components/original-game";
+import { OriginalGameMobileAndTablet } from "@/components/original-game-mobile-and-tablet";
 import { Promotion } from "@/components/promotion";
 import { PromotionMobileAndTablet } from "@/components/promotion-mobile-and-tablet";
 import { Recommended } from "@/components/recommend";
+import { RecommendedMobileAndTablet } from "@/components/recommend-mobile-and-tablet";
 import { SecondBanner } from "@/components/second-banner";
 import { TableData } from "@/components/table-data";
 import { TopEvents } from "@/components/top-event";
 import { Win } from "@/components/win";
+import { WinMobileAndTablet } from "@/components/win-mobile-and-tablet";
 
 export default function Home() {
   return (
@@ -33,17 +36,23 @@ export default function Home() {
           <AceRewards />
           <TableData />
         </div>
-        <div className="tablet bg-[#203241]">
+        <div className="tablet ">
           <FirstBannerMobile />
           <SecondBanner />
           <FestivalFootballMobileAndTablet />
           <PromotionMobileAndTablet />
+          <RecommendedMobileAndTablet />
+          <OriginalGameMobileAndTablet />
+          <WinMobileAndTablet />
         </div>
         <div className="mobile bg-[#203241]">
           <FirstBannerMobile />
           <SecondBanner />
           <FestivalFootballMobileAndTablet />
           <PromotionMobileAndTablet />
+          <RecommendedMobileAndTablet />
+          <OriginalGameMobileAndTablet />
+          <WinMobileAndTablet />
         </div>
 
         {/* <Info /> */}
