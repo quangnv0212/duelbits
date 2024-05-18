@@ -29,7 +29,7 @@ export function HeaderMobileAndTablet({
   };
   const [activeLabel, setActiveLabel] = useState("Login");
   return (
-    <div className="bg-[#203241] text-white p-2 flex justify-between">
+    <div className="bg-[#203241] text-white p-2 flex justify-between top-0 fixed z-50 w-full ">
       <Modal
         closable={false}
         width={350}

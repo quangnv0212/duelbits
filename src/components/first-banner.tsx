@@ -1,13 +1,14 @@
 "use client";
 // Import Swiper React components
+import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+SwiperCore.use([Autoplay]);
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
 export interface IFirstBannerProps {}
 
@@ -119,6 +120,9 @@ export function FirstBanner(props: IFirstBannerProps) {
             zIndex: 0,
           }}
           className="first-banner"
+          autoplay={{
+            delay: 3000,
+          }}
         >
           {dataList.map((item, index) => (
             <SwiperSlide key={index}>
@@ -128,7 +132,7 @@ export function FirstBanner(props: IFirstBannerProps) {
                 width={1300}
                 height={300}
                 style={{
-                  objectPosition:"78%"
+                  objectPosition: "78%",
                 }}
                 className="object-cover w-full min-h-[242px]"
               />

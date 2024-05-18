@@ -1,13 +1,15 @@
 "use client";
 // Import Swiper React components
+import SwiperCore from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+SwiperCore.use([Autoplay]);
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
 export interface IFirstBannerProps {}
 
@@ -87,6 +89,9 @@ export function FirstBannerMobile(props: IFirstBannerProps) {
           style={{
             zIndex: 0,
             width: "100%",
+          }}
+          autoplay={{
+            delay: 3000,
           }}
           className="first-banner w-full"
         >

@@ -55,7 +55,6 @@ export default function Home() {
           <TopEventsMobileAndTablet />
           <AceRewardsMobileAndTablet />
           <TableDataMobileAndTablet />
-          <div className="h-20"></div>
         </div>
         <div className="mobile bg-[#203241]">
           <FirstBannerMobile />
@@ -70,10 +69,7 @@ export default function Home() {
           <TopEventsMobileAndTablet />
           <AceRewardsMobileAndTablet />
           <TableDataMobileAndTablet />
-
-          <div className="h-20"></div>
         </div>
-
         {/* <Info /> */}
       </div>
     </>

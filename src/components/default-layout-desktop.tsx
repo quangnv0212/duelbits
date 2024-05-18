@@ -7,6 +7,7 @@ import { HeaderComponent } from "./header";
 import { HeaderMobileAndTablet } from "./HeaderMobileAndTablet";
 import { BottomNavbar } from "./bottom-navbar";
 import { FooterComponent } from "./footer";
+import { FooterMobileComponent } from "./footer-mobile";
 const { Header, Content, Footer, Sider } = Layout;
 
 type MenuItem = Required<MenuProps>["items"][number];
@@ -718,7 +719,7 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
         />
         <div className="p-3 bg-[#203241]">{children}</div>
         <BottomNavbar />
-        {/* <FooterComponent /> */}
+        <FooterMobileComponent />
       </div>
       <div className="mobile">
         <HeaderMobileAndTablet
@@ -727,7 +728,7 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
         />
         <div className="p-3 bg-[#203241]">{children}</div>
         <BottomNavbar />
-        {/* <FooterComponent /> */}
+        <FooterMobileComponent />
       </div>
     </>
   );
