@@ -31,7 +31,7 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
     <>
       <div className="desktop">
         <HeaderComponent collapsed={collapsed} setCollapsed={setCollapsed} />
-        <Layout style={{ minHeight: "100vh" }}>
+        <Layout style={{ minHeight: "100vh", paddingTop: 67 }}>
           <Sider
             trigger={null}
             collapsible

@@ -3,10 +3,10 @@ import { AceRewards } from "@/components/ace-rewards";
 import { CryptoPricesMobileAndTablet } from "@/components/crypto-mobile-and-tablet";
 import { CryptoPrices } from "@/components/crypto-prices";
 import { FestivalFootball } from "@/components/festival-football";
-import { FestivalFootballMobileAndTablet } from "@/components/festival-football-mobile-and-tablet";
+import { FestivalFootballMobile } from "@/components/festival-football-mobile";
+import { FestivalFootballTablet } from "@/components/festival-football-tablet";
 import { FirstBanner } from "@/components/first-banner";
 import { FirstBannerMobile } from "@/components/first-banner-mobile";
-import { Info } from "@/components/info";
 import { LiveEvents } from "@/components/live-event";
 import { LiveEventsMobileAndTablet } from "@/components/live-event-mobile-and-tablet";
 import { OriginalGame } from "@/components/original-game";
@@ -16,6 +16,7 @@ import { PromotionMobileAndTablet } from "@/components/promotion-mobile-and-tabl
 import { Recommended } from "@/components/recommend";
 import { RecommendedMobileAndTablet } from "@/components/recommend-mobile-and-tablet";
 import { SecondBanner } from "@/components/second-banner";
+import { SecondBannerMobile } from "@/components/second-banner-mobile";
 import { TableDataMobileAndTablet } from "@/components/tabe-data-mobile-and-tablet";
 import { TableData } from "@/components/table-data";
 import { TopEvents } from "@/components/top-event";
@@ -43,8 +44,8 @@ export default function Home() {
         </div>
         <div className="tablet">
           <FirstBannerMobile />
-          <SecondBanner />
-          <FestivalFootballMobileAndTablet />
+          <SecondBannerMobile />
+          <FestivalFootballTablet />
           <PromotionMobileAndTablet />
           <RecommendedMobileAndTablet />
           <OriginalGameMobileAndTablet />
@@ -58,8 +59,8 @@ export default function Home() {
         </div>
         <div className="mobile bg-[#203241]">
           <FirstBannerMobile />
-          <SecondBanner />
-          <FestivalFootballMobileAndTablet />
+          <SecondBannerMobile />
+          <FestivalFootballMobile />
           <PromotionMobileAndTablet />
           <RecommendedMobileAndTablet />
           <OriginalGameMobileAndTablet />

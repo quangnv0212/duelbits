@@ -127,7 +127,10 @@ export function FirstBanner(props: IFirstBannerProps) {
                 alt=""
                 width={1300}
                 height={300}
-                className="object-cover"
+                style={{
+                  objectPosition:"78%"
+                }}
+                className="object-cover w-full min-h-[242px]"
               />
             </SwiperSlide>
           ))}

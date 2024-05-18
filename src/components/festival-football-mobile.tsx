@@ -1,6 +1,6 @@
 export interface IFestivalFootballProps {}
 
-export function FestivalFootballMobileAndTablet(props: IFestivalFootballProps) {
+export function FestivalFootballMobile(props: IFestivalFootballProps) {
   return (
     <div>
       <div className="flex gap-2 text-white font-bold text-base items-center p-2">

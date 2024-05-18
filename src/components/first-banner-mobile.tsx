@@ -86,29 +86,30 @@ export function FirstBannerMobile(props: IFirstBannerProps) {
           modules={[Pagination]}
           style={{
             zIndex: 0,
-            width: "100%",
+            // width: "100%",
           }}
           className="first-banner w-full"
         >
           {dataList.map((item, index) => (
             <SwiperSlide
               style={{
-                width: "100%",
+                height: 400,
               }}
               key={index}
             >
               <Image
                 src={item.src}
                 alt=""
-                width={500}
-                height={500}
-                className="object-cover"
+                width={1500}
+                height={1500}
+                className="object-cover w-full h-full object-center "
+                style={{ objectPosition: "78%" }} // Add this line
               />
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
-      <div className="text-sm bg-[#203241]  text-white font-bold z-10 text-[27px] flex justify-center flex-col items-center top-5 left-10 gap-1">
+      <div className="text-sm bg-[#203241]  text-white font-bold z-10 text-[27px] flex justify-center flex-col items-center top-4 left-10 gap-1">
         <div className="flex gap-2">
           <span className="font-extrabold">SIGN UP</span>
           <span className="font-light">AND</span>

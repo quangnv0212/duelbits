@@ -30,7 +30,7 @@ export function HeaderComponent(props: IHeaderProps) {
   const [activeLabel, setActiveLabel] = useState("Login");
 
   return (
-    <div className="">
+    <div className="top-0 fixed z-50 w-full">
       <Modal
         closable={false}
         width={768}
@@ -56,7 +56,7 @@ export function HeaderComponent(props: IHeaderProps) {
           setIsModalOpen={setIsModalOpen}
         />
       </Modal>
-      <div className="bg-[#213241] h-[68px] p-4 items-center justify-between flex gap-2 text-white">
+      <div className="bg-[#213241] h-[68px] p-4 items-center justify-between flex gap-2 text-white ">
         <div className="flex gap-2 items-center">
           <div
             onClick={() => setCollapsed(!collapsed)}
