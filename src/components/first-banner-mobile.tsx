@@ -80,7 +80,7 @@ export function FirstBannerMobile(props: IFirstBannerProps) {
   ];
   return (
     <>
-      <div className="bg-[#203241]">
+      <div className="bg-[#203241] pt-8">
         <Swiper
           pagination={{
             dynamicBullets: true,
