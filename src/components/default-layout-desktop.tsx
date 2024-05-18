@@ -718,7 +718,7 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
         />
         <div className="p-3 bg-[#203241]">{children}</div>
         <BottomNavbar />
-        <FooterComponent />
+        {/* <FooterComponent /> */}
       </div>
       <div className="mobile">
         <HeaderMobileAndTablet
@@ -727,7 +727,7 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
         />
         <div className="p-3 bg-[#203241]">{children}</div>
         <BottomNavbar />
-        <FooterComponent />
+        {/* <FooterComponent /> */}
       </div>
     </>
   );

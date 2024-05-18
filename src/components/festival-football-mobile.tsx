@@ -96,18 +96,16 @@ export function FestivalFootballMobile(props: IFestivalFootballProps) {
             />
           </div>
         </div>
-        <div className="grid grid-cols-2 items-center gap-2">
-          <p className="text-[9px] text-[#87a0b5] font-semibold">
+        <div className="flex items-center gap-2 justify-end">
+          <p className="text-[9px] w-1/2 text-[#87a0b5] font-semibold">
             With just 6 weeks to go before the start of the Euros, join Duelbits
             Festival of Football! Earn Free Bets and an entry into our $250,000
             guaranteed Fantasy Tournament! Sign up and be rewarded for playing
             over the next 6 weeks!
           </p>
-          <div className="">
-            <button className="block w-full border rounded py-2 hover:bg-[#4c5660] text-xs my-2 border-primary text-white">
-              Sign Up
-            </button>
-          </div>
+          <button className="w-1/2 block border rounded py-2 hover:bg-[#4c5660] text-xs my-2 border-primary text-white">
+            Sign Up
+          </button>
         </div>
       </div>
     </div>
