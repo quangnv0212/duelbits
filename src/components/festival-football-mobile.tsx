@@ -32,53 +32,55 @@ export function FestivalFootballMobile(props: IFestivalFootballProps) {
               Friday, May 3 - Friday, Jun 14
             </span>
           </div>
-          <div className="text-white text-sm font-semibold flex gap-1 ">
-            <span className="text-primary">Collect</span>
-            $30.00
-            <span className="text-primary">in Free Bets</span>+ 1x Ticket for
-            $250k GTD
+          <div className="text-white text-sm font-semibold ">
+            <span className="text-primary mr-1">Collect</span>
+            <span className="mr-1">$30.00</span>
+            <span className="text-primary mr-1">in Free Bets</span>+ 1x Ticket
+            for $250k GTD
+            <span className="text-white ml-1 font-semibold ">
+              Fantasy Tournament
+            </span>
           </div>
-          <p className="text-white font-semibold text-xs">Fantasy Tournament</p>
         </div>
 
         <div className="rounded-md border border-[#527490] flex">
           <div className="grid grid-cols-3 ">
-            <div className="bg-[#324B61] p-2 px-6 border-[#293f52] border-2 ">
+            <div className="bg-[#324B61] p-2 px-4 border-[#293f52] border-2 ">
               <img
                 src="https://duelbits.com/static/media/soccer-ball.ae41cfa2.avif"
                 alt=""
                 className="w-12 h-12"
               />
             </div>{" "}
-            <div className="bg-[#324B61] p-2 px-6 border-[#293f52] border-2 ">
+            <div className="bg-[#324B61] p-2 px-4 border-[#293f52] border-2 ">
               <img
                 src="https://duelbits.com/static/media/soccer-ball.ae41cfa2.avif"
                 alt=""
                 className="w-12 h-12"
               />
             </div>
-            <div className="bg-[#324B61] p-2 px-6 border-[#293f52] border-2 ">
+            <div className="bg-[#324B61] p-2 px-4 border-[#293f52] border-2 ">
               <img
                 src="https://duelbits.com/static/media/soccer-ball.ae41cfa2.avif"
                 alt=""
                 className="w-12 h-12"
               />
             </div>{" "}
-            <div className="bg-[#324B61] p-2 px-6 border-[#293f52] border-2 ">
+            <div className="bg-[#324B61] p-2 px-4 border-[#293f52] border-2 ">
               <img
                 src="https://duelbits.com/static/media/soccer-ball.ae41cfa2.avif"
                 alt=""
                 className="w-12 h-12"
               />
             </div>
-            <div className="bg-[#324B61] p-2 px-6 border-[#293f52] border-2 ">
+            <div className="bg-[#324B61] p-2 px-4 border-[#293f52] border-2 ">
               <img
                 src="https://duelbits.com/static/media/soccer-ball.ae41cfa2.avif"
                 alt=""
                 className="w-12 h-12"
               />
             </div>{" "}
-            <div className="bg-[#324B61] p-2 px-6 border-[#293f52] border-2 ">
+            <div className="bg-[#324B61] p-2 px-4 border-[#293f52] border-2 ">
               <img
                 src="https://duelbits.com/static/media/soccer-ball.ae41cfa2.avif"
                 alt=""
