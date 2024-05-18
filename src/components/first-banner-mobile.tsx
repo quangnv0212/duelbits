@@ -86,7 +86,7 @@ export function FirstBannerMobile(props: IFirstBannerProps) {
           modules={[Pagination]}
           style={{
             zIndex: 0,
-            // width: "100%",
+            width: "100%",
           }}
           className="first-banner w-full"
         >
@@ -100,10 +100,10 @@ export function FirstBannerMobile(props: IFirstBannerProps) {
               <Image
                 src={item.src}
                 alt=""
-                width={1500}
-                height={1500}
+                width={3500}
+                height={3500}
                 className="object-cover w-full h-full object-center "
-                style={{ objectPosition: "78%" }} // Add this line
+                style={{ objectPosition: "70%" }} // Add this line
               />
             </SwiperSlide>
           ))}

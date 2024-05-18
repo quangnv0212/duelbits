@@ -114,13 +114,13 @@ export function CryptoPricesMobileAndTablet() {
   return (
     <>
       <Swiper
-        spaceBetween={10}
+        spaceBetween={5}
         modules={[Navigation, Pagination]}
         style={{
           zIndex: 0,
           width: "100%",
         }}
-        slidesPerView={4}
+        slidesPerView={3}
       >
         <div className="flex gap-2 text-white font-bold text-base p-2 items-center justify-between ">
           <div className="flex gap-2 items-center">
@@ -160,9 +160,9 @@ export function CryptoPricesMobileAndTablet() {
         {data.map((item, index) => (
           <SwiperSlide
             key={index}
-            className="rounded cursor-pointer text-[10px]"
+            className="rounded cursor-pointer text-[8px]"
           >
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-1 items-center">
               <img className="w-4 h-4" src={item.icon} alt="" />
               <p className="text-white font-semibold text-[10px]">
                 {item.total}
