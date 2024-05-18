@@ -6,6 +6,7 @@ import { useState } from "react";
 import { HeaderComponent } from "./header";
 import { HeaderMobileAndTablet } from "./HeaderMobileAndTablet";
 import { BottomNavbar } from "./bottom-navbar";
+import { FooterComponent } from "./footer";
 const { Header, Content, Footer, Sider } = Layout;
 
 type MenuItem = Required<MenuProps>["items"][number];
@@ -699,11 +700,13 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
               ]}
             />
           </Sider>
+
           <Layout>
             <Content
               style={{ padding: "32px 70px", backgroundColor: "#1e2d3b" }}
             >
               {children}
+              <FooterComponent />
             </Content>
           </Layout>
         </Layout>
@@ -715,6 +718,7 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
         />
         <div className="p-3 bg-[#203241]">{children}</div>
         <BottomNavbar />
+        <FooterComponent />
       </div>
       <div className="mobile">
         <HeaderMobileAndTablet
@@ -723,6 +727,7 @@ export function DefaultLayoutDesktop(props: IDefaultLayoutProps) {
         />
         <div className="p-3 bg-[#203241]">{children}</div>
         <BottomNavbar />
+        <FooterComponent />
       </div>
     </>
   );
