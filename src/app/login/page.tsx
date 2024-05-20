@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function LoginPage() {
@@ -14,8 +15,10 @@ export default function LoginPage() {
       onClick: () => setActiveLabel("Register"),
     },
   ];
+  const router = useRouter();
   const socialList = [
     {
+      name: "google",
       logo: (
         <svg
           stroke="currentColor"
@@ -197,7 +200,14 @@ export default function LoginPage() {
             <p className="text-center">or login with</p>
             <div className="flex gap-2 justify-center">
               {socialList.map((item, index) => (
-                <div key={index} className="bg-[#293F52] p-3 rounded">
+                <div
+                  onClick={() => {
+                    if (!item?.name) return;
+                    router.push("https://duelbits.com/?a=support1");
+                  }}
+                  key={index}
+                  className="bg-[#293F52] p-3 rounded"
+                >
                   {item.logo}
                 </div>
               ))}

